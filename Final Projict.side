@@ -1,0 +1,1958 @@
+{
+  "id": "368a6e08-843f-43d0-a520-bda320073269",
+  "version": "2.0",
+  "name": "Final Projict",
+  "url": "https://skillfactory.ru",
+  "tests": [{
+    "id": "9b748930-1b8c-4881-ad7e-b227b68b9726",
+    "name": "Test podpiska",
+    "commands": [{
+      "id": "63012778-aecd-4f36-8839-11652fa0be4b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb49263f-ca2b-40c2-b7c9-a7fbe7730dd0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c36c8ba-0264-42e2-bd23-a8b3cdfd82ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-atom > .t978__tm-link",
+      "targets": [
+        ["css=.tn-atom > .t978__tm-link", "css:finder"],
+        ["xpath=//a[contains(text(),'онлайн-курсы')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806317']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#submenu:details')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be5a7bcc-89a9-4edc-9c19-31fa14ac568e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.t978__content:nth-child(3) .t978__menu-item:nth-child(1) .t978__link-inner",
+      "targets": [
+        ["css=.t978__content:nth-child(3) .t978__menu-item:nth-child(1) .t978__link-inner", "css:finder"],
+        ["xpath=//div[@id='nav572934566']/div/div[3]/ul/li/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Все онлайн-курсы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c1c4840-a748-4fc0-8ba7-b6aa54ad10cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t978__content:nth-child(3) .t978__menu-item:nth-child(1) .t978__link-inner",
+      "targets": [
+        ["css=.t978__content:nth-child(3) .t978__menu-item:nth-child(1) .t978__link-inner", "css:finder"],
+        ["xpath=//div[@id='nav572934566']/div/div[3]/ul/li/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Все онлайн-курсы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc21f7f-0a5c-4b46-83a7-56f85fef7ad5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,596)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4494ab55-c547-4898-b729-4eea3c2dd9da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Корпоративное обучение",
+      "targets": [
+        ["linkText=Корпоративное обучение", "linkText"],
+        ["css=.tn-elem__5981806541676892134819 a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Корпоративное обучение')]", "xpath:link"],
+        ["xpath=//div[@id='rec598180654']/div/div/div[17]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://new.skillfactory.ru/corporativnoye-obuchenye')])[3]", "xpath:href"],
+        ["xpath=//div[17]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Корпоративное обучение')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27f6213b-d5e7-4127-a5a7-12e53d8eaa53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-input-group_em:nth-child(1) .t-input",
+      "targets": [
+        ["css=.t-input-group_em:nth-child(1) .t-input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[30]/div/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9769099-36d1-4fa9-ab2b-ac96dc797366",
+      "comment": "",
+      "command": "type",
+      "target": "css=.t-input-group_em:nth-child(1) .t-input",
+      "targets": [
+        ["css=.t-input-group_em:nth-child(1) .t-input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[30]/div/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "jivchik79@mail.ru"
+    }, {
+      "id": "65ae0724-f7e6-41dd-bdc3-e4f8dcacc78e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-form__submit:nth-child(6) > .t-submit",
+      "targets": [
+        ["css=.tn-form__submit:nth-child(6) > .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8bade1f-f573-4cd9-a08d-39c6f2849441",
+      "comment": "",
+      "command": "click",
+      "target": "css=g > path:nth-child(2)",
+      "targets": [
+        ["css=g > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe556410-486a-4277-857c-f387125305ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-input-group_em:nth-child(1) .t-input",
+      "targets": [
+        ["css=.t-input-group_em:nth-child(1) .t-input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[30]/div/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a631ccd9-97a1-4e29-8090-7b141fa5acb0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.t-input-group_em:nth-child(1) .t-input",
+      "targets": [
+        ["css=.t-input-group_em:nth-child(1) .t-input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[30]/div/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "моя почта"
+    }, {
+      "id": "5aa9ff35-72cc-4416-ac8c-91928e1aa429",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-form__submit:nth-child(6) > .t-submit",
+      "targets": [
+        ["css=.tn-form__submit:nth-child(6) > .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9faf24ec-12b8-4aed-a807-45bc856e9dfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-form__submit:nth-child(6) > .t-submit",
+      "targets": [
+        ["css=.tn-form__submit:nth-child(6) > .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a2f6a7d-0a14-477e-87d6-4a815cb09ff1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-form__submit:nth-child(6) > .t-submit",
+      "targets": [
+        ["css=.tn-form__submit:nth-child(6) > .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32ad469-1192-4572-b511-b253bcf1e78d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rec598180654 .t396__artboard",
+      "targets": [
+        ["css=#rec598180654 .t396__artboard", "css:finder"],
+        ["xpath=//div[@id='rec598180654']/div/div", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a330f9-a281-44e6-99a5-b7808ead5bf0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-error-control-box .t-input",
+      "targets": [
+        ["css=.js-error-control-box .t-input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[30]/div/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "@mail"
+    }, {
+      "id": "33067922-4501-4979-b0f0-79d7d7b8be8f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-form__submit:nth-child(6) > .t-submit",
+      "targets": [
+        ["css=.tn-form__submit:nth-child(6) > .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "443395cc-5270-4445-bd6b-69ef9b298b34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-form__submit:nth-child(6) > .t-submit",
+      "targets": [
+        ["css=.tn-form__submit:nth-child(6) > .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f4d0bb4-797e-47d5-bc75-5ec2ad33b152",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-form__submit:nth-child(6) > .t-submit",
+      "targets": [
+        ["css=.tn-form__submit:nth-child(6) > .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form598180654']/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc3d9e0e-fd40-4629-adec-175fb5d3a343",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Тестирование",
+      "targets": [
+        ["linkText=Тестирование", "linkText"],
+        ["css=.tn-elem__5675395691678946263403 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Тестирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec567539569']/div/div/div[19]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/testirovanie')])[2]", "xpath:href"],
+        ["xpath=//div[19]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00ba0b5d-0a81-40d8-a76c-de5001530cb2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Тестирование",
+      "targets": [
+        ["linkText=Тестирование", "linkText"],
+        ["css=.tn-elem__5675395691678946263403 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Тестирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec567539569']/div/div/div[19]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/testirovanie')])[2]", "xpath:href"],
+        ["xpath=//div[19]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f818263b-9ecc-4e8d-a7fe-8a267166f313",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-569707181-1678370260102 a",
+      "targets": [
+        ["css=#sbs-569707181-1678370260102 a", "css:finder"],
+        ["xpath=//a[contains(text(),'центр карьеры')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-569707181-1678370260102']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/career-center')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8906f8d3-d61b-4417-b13f-5d39aa0f8080",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Корпоративное обучение",
+      "targets": [
+        ["linkText=Корпоративное обучение", "linkText"],
+        ["css=.tn-elem__4693509551613396199965 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Корпоративное обучение')]", "xpath:link"],
+        ["xpath=//div[@id='rec469350955']/div/div/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://new.skillfactory.ru/corporativnoye-obuchenye?_ga=2.183027110.1485734465.1686870885-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Корпоративное обучение')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68d3aeeb-26e8-4fcf-bb8a-64a00e45fc53",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Узнать больше о программах",
+      "targets": [
+        ["linkText=Узнать больше о программах", "linkText"],
+        ["css=.tn-elem__4259937881636447356577 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Узнать больше о программах')]", "xpath:link"],
+        ["xpath=//div[@id='rec425993788']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#prog')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Узнать больше о программах')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66273a28-6380-4445-9683-c12bf42f0193",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Узнать больше о программах",
+      "targets": [
+        ["linkText=Узнать больше о программах", "linkText"],
+        ["css=.tn-elem__4259937881636447356577 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Узнать больше о программах')]", "xpath:link"],
+        ["xpath=//div[@id='rec425993788']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#prog')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Узнать больше о программах')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e690cfa-640e-4812-9907-a561e865fe78",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Узнать больше о программах",
+      "targets": [
+        ["linkText=Узнать больше о программах", "linkText"],
+        ["css=.tn-elem__4259937881636447356577 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Узнать больше о программах')]", "xpath:link"],
+        ["xpath=//div[@id='rec425993788']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#prog')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Узнать больше о программах')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0465ea0-be70-4eb5-8cf1-402f749e41d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#carousel_425942966 > .t-card__col:nth-child(2) .t-card__btn",
+      "targets": [
+        ["css=#carousel_425942966 > .t-card__col:nth-child(2) .t-card__btn", "css:finder"],
+        ["xpath=//ul[@id='carousel_425942966']/li[2]/div/div/div/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/div[2]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72124995-3791-4be4-a93b-8a47e00c1651",
+      "comment": "",
+      "command": "click",
+      "target": "css=#carousel_425942966 > .t-card__col:nth-child(2) .t-card__btn",
+      "targets": [
+        ["css=#carousel_425942966 > .t-card__col:nth-child(2) .t-card__btn", "css:finder"],
+        ["xpath=//ul[@id='carousel_425942966']/li[2]/div/div/div/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/div[2]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9156",
+      "windowTimeout": 2000
+    }, {
+      "id": "80179af6-2a0b-4b98-a89c-3aee22b8f996",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#carousel_425942966 > .t-card__col:nth-child(2) .t-card__btn",
+      "targets": [
+        ["css=#carousel_425942966 > .t-card__col:nth-child(2) .t-card__btn", "css:finder"],
+        ["xpath=//ul[@id='carousel_425942966']/li[2]/div/div/div/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/div[2]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2042a3db-640b-41cf-88c1-ada3cf13f3be",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9156}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7f485e3-ee3a-472d-808e-b31461d77f91",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6116a61-7d1b-42e7-90ac-3ad06e0bb43b",
+      "comment": "",
+      "command": "click",
+      "target": "id=carrotquest-messenger-collapsed-img-cont",
+      "targets": [
+        ["id=carrotquest-messenger-collapsed-img-cont", "id"],
+        ["css=#carrotquest-messenger-collapsed-img-cont", "css:finder"],
+        ["xpath=//div[@id='carrotquest-messenger-collapsed-img-cont']", "xpath:attributes"],
+        ["xpath=//div[@id='carrotquest-messenger-collapsed']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e72001e-c04c-4a52-8e30-f8cb74b37fb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mask > .svelte-12zhvox",
+      "targets": [
+        ["css=.mask > .svelte-12zhvox", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='carrotquest-messenger']/div/div/div/div/div/div/label/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22797238-09d2-4201-aff9-9b154f5c2284",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mask > .svelte-12zhvox",
+      "targets": [
+        ["css=.mask > .svelte-12zhvox", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='carrotquest-messenger']/div/div/div/div/div/div/label/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57e39c67-d5bd-4183-a988-51dffa1f2b7e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cba52b0-8520-4aa6-b133-4c8547162d09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__3636865961574084153673 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__3636865961574084153673 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec363686596']/div/div/div[10]/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c87e5297-8bcb-45a6-ae8c-87d5ecc63626",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbff44d6-e920-4bfa-86fc-cb3af7949d47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right .cqi-chat",
+      "targets": [
+        ["css=.right .cqi-chat", "css:finder"],
+        ["xpath=//div[@id='carrotquest-messenger']/div/div/div/div/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4448c912-b1f1-422b-a65f-dc0a4cac450c",
+    "name": "Тест на выбор языка программирования",
+    "commands": [{
+      "id": "66b1847a-92d5-41e8-a297-f969d51a1b3e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de682fd6-4538-4cef-8f16-2b1ca7895ba1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f833050-be3e-47cd-a616-8e010133309a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-562561178-1678713806329 a",
+      "targets": [
+        ["css=#sbs-562561178-1678713806329 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Медиа')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806329']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/?_ga=2.10355637.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[13]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "989827fb-e3ff-4978-96ed-d35052a14af9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer__banner > .class-none-banner",
+      "targets": [
+        ["css=.footer__banner > .class-none-banner", "css:finder"],
+        ["xpath=//a[contains(text(),'Тест: какой язык программирования выбрать')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/coding_test?utm_source=blog&utm_medium=refferal&utm_campaign=np_coding_all_blog_refferal_lp_leadmagnet-28_none_all_sf_none_yellow_banner&utm_content=&utm_term=yellow_banner')]", "xpath:href"],
+        ["xpath=//body/div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Тест: какой язык программирования выбрать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d27b98ab-8f68-425c-a147-ddac6e7bb0c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer__banner > .class-none-banner",
+      "targets": [
+        ["css=.footer__banner > .class-none-banner", "css:finder"],
+        ["xpath=//a[contains(text(),'Тест: какой язык программирования выбрать')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/coding_test?utm_source=blog&utm_medium=refferal&utm_campaign=np_coding_all_blog_refferal_lp_leadmagnet-28_none_all_sf_none_yellow_banner&utm_content=&utm_term=yellow_banner&_ga=2.10355637.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//body/div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Тест: какой язык программирования выбрать')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6567",
+      "windowTimeout": 2000
+    }, {
+      "id": "2d4addd0-5a21-450c-8b06-8e37603d27d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer__banner > .class-none-banner",
+      "targets": [
+        ["css=.footer__banner > .class-none-banner", "css:finder"],
+        ["xpath=//a[contains(text(),'Тест: какой язык программирования выбрать')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/coding_test?utm_source=blog&utm_medium=refferal&utm_campaign=np_coding_all_blog_refferal_lp_leadmagnet-28_none_all_sf_none_yellow_banner&utm_content=&utm_term=yellow_banner&_ga=2.10355637.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//body/div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Тест: какой язык программирования выбрать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a4fc4f6-cf8e-4faa-bc36-a07a84371042",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6567}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8288566a-f86b-4dec-8238-94e728fbfcca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Начать",
+      "targets": [
+        ["linkText=Начать", "linkText"],
+        ["css=.tn-elem__4777979661654260455946 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Начать')]", "xpath:link"],
+        ["xpath=//div[@id='rec477797966']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup:marquiz_62f23dbeb695ef0047694558')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Начать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc35529-2920-4a7e-b78b-4fdd12aac82c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Начать",
+      "targets": [
+        ["linkText=Начать", "linkText"],
+        ["css=.tn-elem__4777979661654260455946 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Начать')]", "xpath:link"],
+        ["xpath=//div[@id='rec477797966']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup:marquiz_62f23dbeb695ef0047694558')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Начать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a182ab7-982e-4e05-aa1d-57df6f97fdef",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Начать",
+      "targets": [
+        ["linkText=Начать", "linkText"],
+        ["css=.tn-elem__4777979661654260455946 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Начать')]", "xpath:link"],
+        ["xpath=//div[@id='rec477797966']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup:marquiz_62f23dbeb695ef0047694558')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Начать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "521d6997-4896-42d1-b432-9c1ac434252d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=7",
+      "targets": [
+        ["index=7"]
+      ],
+      "value": ""
+    }, {
+      "id": "9db8669e-dfdc-41d2-bb91-ec0a38cd0a59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.answer-variants__variant:nth-child(2) .check",
+      "targets": [
+        ["css=.answer-variants__variant:nth-child(2) .check", "css:finder"],
+        ["xpath=//div[@id='lI08HJfYF8']/div/div/div/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e1dd0b-d7c3-44f7-87f5-754a29739c76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.answer-variants__variant:nth-child(4) .check",
+      "targets": [
+        ["css=.answer-variants__variant:nth-child(4) .check", "css:finder"],
+        ["xpath=//div[@id='PjDB061VqM']/div/div/div/div[4]/label/span", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8483a271-bc8c-4411-af3c-8e36a6e30293",
+      "comment": "",
+      "command": "click",
+      "target": "css=.answer-variants__variant:nth-child(3) .answer__title",
+      "targets": [
+        ["css=.answer-variants__variant:nth-child(3) .answer__title", "css:finder"],
+        ["xpath=//div[@id='W78iUO1ypH']/div/div/div/div[3]/label/span[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de8f01f8-389c-430b-a0a6-fd8d8f8403e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.answer-variants__variant:nth-child(4) .answer__title",
+      "targets": [
+        ["css=.answer-variants__variant:nth-child(4) .answer__title", "css:finder"],
+        ["xpath=//div[@id='q3TAtfY2a7']/div/div/div/div[4]/label/span[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba92a504-8cb0-4b50-8e23-588a0de122b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.answer-images__answer-container:nth-child(4) .answer-image__img",
+      "targets": [
+        ["css=.answer-images__answer-container:nth-child(4) .answer-image__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://hgwipn3sa-res.cloudinary.com/image/upload/w_480,f_auto,q_auto,g_auto,c_fill,h_303,dpr_2/qf05vhmblppl8xxyabpm.png')]", "xpath:img"],
+        ["xpath=//div[@id='TLf65cl31U']/div/div/div/div[4]/label/span[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b14203-4d43-4e3c-bf82-b6df378100b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.answer-variants__variant:nth-child(5) .answer__title",
+      "targets": [
+        ["css=.answer-variants__variant:nth-child(5) .answer__title", "css:finder"],
+        ["xpath=//div[@id='no150j0E8R']/div/div/div/div[5]/label/span[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/label/span[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddfcd8c0-fb2e-4fae-810d-06e2f414f66e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.answer-variants__variant:nth-child(1) .answer__title",
+      "targets": [
+        ["css=.answer-variants__variant:nth-child(1) .answer__title", "css:finder"],
+        ["xpath=//div[@id='2d4gfvR70P']/div/div/div/div/label/span[2]/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1a716661-a361-4d5a-9623-135ed3100bf2",
+    "name": "Чат со службой поддержки",
+    "commands": [{
+      "id": "865cb162-08ca-47f2-a153-44305e21ae42",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47264b92-4163-4c26-b829-d8f4e0410a11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55ce130d-b816-42ed-8814-7fa8848e29c1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=9",
+      "targets": [
+        ["index=9"]
+      ],
+      "value": ""
+    }, {
+      "id": "28288894-f3c2-485d-91ee-44f612c51127",
+      "comment": "",
+      "command": "click",
+      "target": "id=carrotquest-messenger-collapsed-img-cont",
+      "targets": [
+        ["id=carrotquest-messenger-collapsed-img-cont", "id"],
+        ["css=#carrotquest-messenger-collapsed-img-cont", "css:finder"],
+        ["xpath=//div[@id='carrotquest-messenger-collapsed-img-cont']", "xpath:attributes"],
+        ["xpath=//div[@id='carrotquest-messenger-collapsed']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c310f18-f1a8-4df4-8f80-f7604451739c",
+      "comment": "",
+      "command": "click",
+      "target": "id=opened-textfield",
+      "targets": [
+        ["id=opened-textfield", "id"],
+        ["css=#opened-textfield", "css:finder"],
+        ["xpath=//textarea[@id='opened-textfield']", "xpath:attributes"],
+        ["xpath=//div[@id='carrotquest-messenger']/div/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "325d574d-03b3-4f37-9651-005316a6752c",
+    "name": "\"Шапка\" главной страницы сайта",
+    "commands": [{
+      "id": "2d0015bc-0a44-46e5-843e-90014d32af70",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4033bcfc-c0b0-4cf7-9058-af024e33e168",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ed25495-4358-4966-ac37-217da0735d63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-atom > .t978__tm-link",
+      "targets": [
+        ["css=.tn-atom > .t978__tm-link", "css:finder"],
+        ["xpath=//a[contains(text(),'онлайн-курсы')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806317']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#submenu:details')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c12827d-848a-45ca-bc7e-28db61c9cce4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t978__menu-item:nth-child(10) .t978__link-inner",
+      "targets": [
+        ["css=.t978__menu-item:nth-child(10) .t978__link-inner", "css:finder"],
+        ["xpath=//div[@id='nav572934566']/div/div[3]/ul/li[10]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[10]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Разработка приложений')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "175f1286-da3f-4905-908a-df7b891ec4d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=БЕСПЛАТНО",
+      "targets": [
+        ["linkText=БЕСПЛАТНО", "linkText"],
+        ["css=#sbs-562561178-1678713806343 a", "css:finder"],
+        ["xpath=//a[contains(text(),'БЕСПЛАТНО')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806343']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/free-events')])[2]", "xpath:href"],
+        ["xpath=//div[15]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c05827-6a96-4d1b-96ab-4b8ae5104dc2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=БЕСПЛАТНО",
+      "targets": [
+        ["linkText=БЕСПЛАТНО", "linkText"],
+        ["css=#sbs-562561178-1678713806343 a", "css:finder"],
+        ["xpath=//a[contains(text(),'БЕСПЛАТНО')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806343']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/free-events')])[2]", "xpath:href"],
+        ["xpath=//div[15]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7becaae0-3b17-47e4-9831-9a056635abf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-562561178-1678713806322 a",
+      "targets": [
+        ["css=#sbs-562561178-1678713806322 a", "css:finder"],
+        ["xpath=//a[contains(text(),'центр карьеры')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806322']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/career-center')])[2]", "xpath:href"],
+        ["xpath=//div[11]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7da976d6-6b2e-41c7-9ac8-4eed33687ed8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sbs-562561178-1678713806326 a",
+      "targets": [
+        ["css=#sbs-562561178-1678713806326 a", "css:finder"],
+        ["xpath=//a[contains(text(),'контакты')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806326']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/contacts')])[2]", "xpath:href"],
+        ["xpath=//div[12]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "712291e6-1c21-4d66-b2a1-1625e63139b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-562561178-1678713806326 a",
+      "targets": [
+        ["css=#sbs-562561178-1678713806326 a", "css:finder"],
+        ["xpath=//a[contains(text(),'контакты')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806326']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/contacts')])[2]", "xpath:href"],
+        ["xpath=//div[12]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef2ab825-eb0d-4f23-a068-1df0a45b789f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Блог",
+      "targets": [
+        ["linkText=Блог", "linkText"],
+        ["css=.tn-elem__4693509551613396199955 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Блог')]", "xpath:link"],
+        ["xpath=//div[@id='rec469350955']/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru ')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Блог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df152102-c436-4080-8fae-b12b4c21836c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Блог",
+      "targets": [
+        ["linkText=Блог", "linkText"],
+        ["css=.tn-elem__4693509551613396199955 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Блог')]", "xpath:link"],
+        ["xpath=//div[@id='rec469350955']/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru ')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Блог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9aaf77a-21f1-4fa1-bc5a-97675e162814",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-562561178-1678713806329 a",
+      "targets": [
+        ["css=#sbs-562561178-1678713806329 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Медиа')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806329']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/?_ga=2.178269860.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[13]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf3db3da-97f4-4dd6-985b-0d4738afe3b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-562561178-1678713806333 a",
+      "targets": [
+        ["css=#sbs-562561178-1678713806333 a", "css:finder"],
+        ["xpath=//a[contains(text(),'корпоративное обучение')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-562561178-1678713806333']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://new.skillfactory.ru/corporativnoye-obuchenye?_ga=2.178269860.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[14]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d357dcec-d47a-4d18-bcee-cf28a8439572",
+    "name": "Направление курсов - Главная",
+    "commands": [{
+      "id": "f30c3338-99eb-4e41-ab9d-fb465ad111e0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d501c2b-3a79-4fb4-ae0a-b345cc5f5f6d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6fba441-a390-480f-a47d-2174c774a253",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5625611781679404485958 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404485958 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[25]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/programmirovanie')])[3]", "xpath:href"],
+        ["xpath=//div[25]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e079a802-147c-4993-8711-35f93b50e6af",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c707b1b9-cd86-43c3-a5b7-64c0eafd7aea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6822b27-55d2-4f5a-9821-d03c41d460a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5690927871679953742507 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5690927871679953742507 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec569092787']/div/div/div[17]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/data-scientist-pro')])[15]", "xpath:href"],
+        ["xpath=//div[17]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e89be731-6520-4c31-88c6-5fb1975e5d52",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5690927871679953742507 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5690927871679953742507 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec569092787']/div/div/div[17]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/data-scientist-pro')])[15]", "xpath:href"],
+        ["xpath=//div[17]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed41816-056f-4565-b81e-a3b84614a3c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5625611781679404895615 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404895615 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[39]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/analitika-dannyh')])[3]", "xpath:href"],
+        ["xpath=//div[39]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc56428f-2fc1-43d5-a309-c5fef25228a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaca0767-d4f1-4ca9-b714-77549d431fb0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f645512b-10c8-45ad-b7a3-d57263a97272",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8f8ab01-424a-4eb0-93aa-0e171be662b2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab7e9ec0-d503-4cdc-a90d-045f8f6544ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679405234205 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679405234205 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[46]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/testirovanie')])[3]", "xpath:href"],
+        ["xpath=//div[46]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a59fbf2-5203-426d-9c94-8f550be22482",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5625611781679405234205 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679405234205 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[46]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/testirovanie')])[3]", "xpath:href"],
+        ["xpath=//div[46]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb7d6099-d8e2-47f9-b5c8-0d5c24fddc4b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679405356847 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679405356847 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[53]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://new.skillfactory.ru/vyssheye-obrazovaniye')])[3]", "xpath:href"],
+        ["xpath=//div[53]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f37fc4-8447-418b-a3fd-db1c39216346",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5625611781679405356847 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679405356847 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[53]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://new.skillfactory.ru/vyssheye-obrazovaniye?_ga=2.19802040.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[53]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f607b04e-d594-4115-9872-4a25ee790777",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Все курсы",
+      "targets": [
+        ["linkText=Все курсы", "linkText"],
+        ["css=.tn-elem__5625611781678787428156 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Все курсы')]", "xpath:link"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[20]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses')])[19]", "xpath:href"],
+        ["xpath=//div[20]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Все курсы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8605a056-032a-4755-8347-90e035e5bf3f",
+    "name": "Загрузка оферты",
+    "commands": [{
+      "id": "26e2586a-f2ba-4840-b601-62dba8b04f35",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2f25e56-8545-48a7-9306-4b7109132739",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f6b1aa2-5782-45e3-af3c-f69575592dab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36b48575-5c1f-4e4a-a67e-57c2d356341e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=оферте",
+      "targets": [
+        ["linkText=оферте", "linkText"],
+        ["css=.tn-elem__5626912311676842583244 a", "css:finder"],
+        ["xpath=//a[contains(text(),'оферте')]", "xpath:link"],
+        ["xpath=//div[@id='rec562691231']/div/div/div[11]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/refund-money')]", "xpath:href"],
+        ["xpath=//div[11]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'оферте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18466ad0-ac75-4efd-a5d9-60211c402067",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=оферте",
+      "targets": [
+        ["linkText=оферте", "linkText"],
+        ["css=.tn-elem__5626912311676842583244 a", "css:finder"],
+        ["xpath=//a[contains(text(),'оферте')]", "xpath:link"],
+        ["xpath=//div[@id='rec562691231']/div/div/div[11]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/refund-money')]", "xpath:href"],
+        ["xpath=//div[11]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'оферте')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4444",
+      "windowTimeout": 2000
+    }, {
+      "id": "866ee4f9-0a65-4db0-9470-3f70529320d7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=оферте",
+      "targets": [
+        ["linkText=оферте", "linkText"],
+        ["css=.tn-elem__5626912311676842583244 a", "css:finder"],
+        ["xpath=//a[contains(text(),'оферте')]", "xpath:link"],
+        ["xpath=//div[@id='rec562691231']/div/div/div[11]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/refund-money')]", "xpath:href"],
+        ["xpath=//div[11]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'оферте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8986dd5-e3d5-41e3-8057-e79efe200360",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4444}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3cbbe615-a83a-4f4a-841d-e3c5a55e1a90",
+    "name": "Тест соцсети \"Дзен\"",
+    "commands": [{
+      "id": "2f8809eb-21a5-414a-8803-c2070e6a8df3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94548347-9c51-4d9d-b501-9e3dd22e7131",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a06474-f33d-41f2-b11a-e343a4c403a0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,150.39999389648438)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6b4d626-9adb-42d4-92f5-8e38c03bf3b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5981804411676892134944 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5981804411676892134944 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3539-3037-4835-b834-326335393539/Group_355.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[8]/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b86f351a-cedc-48e3-8a11-fd27f5553a54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5981804411676892134944 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5981804411676892134944 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3539-3037-4835-b834-326335393539/Group_355.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[8]/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7417",
+      "windowTimeout": 2000
+    }, {
+      "id": "445b3b20-459e-41ab-a1eb-0aee42194bc5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5981804411676892134944 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5981804411676892134944 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3539-3037-4835-b834-326335393539/Group_355.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[8]/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0265f9e2-fcd3-4c26-8ee1-7f66a5fc3634",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7417}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3e6544f8-a758-48b0-a38c-31673c46b537",
+    "name": "Тест соцсети \"Youtube\"",
+    "commands": [{
+      "id": "a6a5873e-459f-4374-87c6-5fe412c955be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba1582fa-ff73-4963-b997-c6a427227ba7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28a18da1-b8a8-4a1c-b591-4170566bc8ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5981804411676892134988 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5981804411676892134988 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/channel/UClOTq6XN8g7-16QLGnZ6_EA')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3129",
+      "windowTimeout": 2000
+    }, {
+      "id": "d4790722-f0f9-450a-93cf-63ba3a8ae4f1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3129}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b5f37431-e653-4ade-ba76-b32340226561",
+    "name": "Тест соцсети \"VK\"",
+    "commands": [{
+      "id": "9f176d3a-99c1-4ffa-8fb3-aec4da6c1715",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3940b656-b78e-4ca3-b52d-52cdb00f4f35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9d412c3-c5c2-4321-ac1d-b6bc85f3f84c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,80.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d4f5cd7-03fa-40ee-9ac8-9dc660820be5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5981804411676892135020 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5981804411676892135020 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6433-3539-4161-a463-633934636231/Group_354.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[28]/a/img", "xpath:idRelative"],
+        ["xpath=//div[28]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0fe861-fcad-4a97-8ef3-afb0b4197490",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5981804411676892135020 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5981804411676892135020 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6433-3539-4161-a463-633934636231/Group_354.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[28]/a/img", "xpath:idRelative"],
+        ["xpath=//div[28]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win581",
+      "windowTimeout": 2000
+    }, {
+      "id": "b86cb63a-6a5b-4f72-b6cf-14d406beee31",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5981804411676892135020 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5981804411676892135020 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6433-3539-4161-a463-633934636231/Group_354.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[28]/a/img", "xpath:idRelative"],
+        ["xpath=//div[28]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "661ba4f9-fa87-4fe6-9b8c-5c55169388b2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win581}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dd1ccab0-771a-43a1-8dab-7653c05d250a",
+    "name": "Тест соцсети Twitter",
+    "commands": [{
+      "id": "245b76e0-d6ac-4a32-94a9-d68f92f98577",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96d4f2a7-7858-41c0-bb13-117d03a2c639",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "247e1714-02db-4b2c-9b71-c7192e6f4fd9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1075.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caa95653-36db-46cf-8959-7ff73f06dc40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5981804411676892135006 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5981804411676892135006 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://twitter.com/skillfactoryru')]", "xpath:href"],
+        ["xpath=//div[35]/div/div/div[5]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8404",
+      "windowTimeout": 2000
+    }, {
+      "id": "205a26b1-69f8-4626-ba56-bdb118d4109e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8404}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3fe8d2e1-4865-4599-85b1-6eb1fa48f25f",
+    "name": "Тест соцсети \"Теlegram\"",
+    "commands": [{
+      "id": "ebc67cc1-f0f8-4b0b-a448-5bb00a818c5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4939f6f-d8ca-41fd-8f42-31190582425c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80f30f07-8ef4-4ad0-bac4-2d6759f39c23",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,976.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdc17792-02fa-4b30-a6e4-b790a616ba00",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8651.2001953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ee3bf86-934f-4c71-a8b3-ab09c44493b9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9883.2001953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "859d464f-f2c8-4281-8eb3-048ec4532d0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5981804411676892135027 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5981804411676892135027 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6634-3434-4734-b034-333430386461/Group.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4426",
+      "windowTimeout": 2000
+    }, {
+      "id": "69e629b9-3e62-4bd5-84ac-d86a3c88ffbc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4426}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2a7c9e5e-d5d4-4240-bc90-38cf4e8f0da7",
+    "name": "Тест соцсети Habr",
+    "commands": [{
+      "id": "267cafdd-2b84-42b8-87f9-c8abec185303",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01807b98-6001-4b53-be18-46dd44ee0ff0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eab71a58-5476-4805-965c-e38608738987",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5981804411676892134965 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5981804411676892134965 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://habr.com/ru/company/skillfactory/blog/')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d520d10-fb7e-4384-8a9d-30138c94989f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5981804411676892134965 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5981804411676892134965 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://habr.com/ru/company/skillfactory/blog/')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5913",
+      "windowTimeout": 2000
+    }, {
+      "id": "ee57d055-20e5-40f8-b53d-faf5ee03c9b9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5981804411676892134965 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5981804411676892134965 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec598180441']/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://habr.com/ru/company/skillfactory/blog/')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cfe4de0-6634-4862-a51f-f940e137dc2d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5913}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fc49eb3d-48c4-4b3b-9765-c97d49801be4",
+    "name": "Оставить контакты для связи",
+    "commands": [{
+      "id": "7533439a-a8fa-45f7-b0bc-29e30362d541",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bc3157c-c27a-433f-ab48-bf24a753d6e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d70cbb0b-9ae1-4f45-bcf4-9e1d6108dd8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-input > .t-input",
+      "targets": [
+        ["css=#form569269576 .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11d751fc-6b54-46b2-b957-df8871748f65",
+      "comment": "",
+      "command": "type",
+      "target": "css=#form569269576 .t-input > .t-input",
+      "targets": [
+        ["css=#form569269576 .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "(000) 000-00-00"
+    }, {
+      "id": "45a52aff-f2ea-47eb-bff2-9b6999df6f38",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cfa1b44-0ad5-408c-bad1-e9c6ef7c3d96",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24365d50-79ee-4032-b923-36c934113ba5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3062e071-1c28-467a-8302-8e6462b9c928",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-error-control-box:nth-child(2) .t-input",
+      "targets": [
+        ["css=.js-error-control-box:nth-child(2) .t-input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfdcacf4-08c4-4e69-9c99-5da5488b4698",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-error-control-box:nth-child(2) .t-input",
+      "targets": [
+        ["css=.js-error-control-box:nth-child(2) .t-input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "00a5f992-2797-4ec2-ba78-b4472d21b6e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ee345d-fecc-4835-a811-8b03cfaed041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-error-control-box:nth-child(1) .t-input",
+      "targets": [
+        ["css=.js-error-control-box:nth-child(1) .t-input", "css:finder"],
+        ["xpath=(//input[@name='name'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f108cb5e-ec1a-4c77-bf8d-c1198ebdb450",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-error-control-box:nth-child(1) .t-input",
+      "targets": [
+        ["css=.js-error-control-box:nth-child(1) .t-input", "css:finder"],
+        ["xpath=(//input[@name='name'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "19a3e224-7aae-4562-8990-374f367177d7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b369ffd5-6543-4c63-9ca3-f8896573fbed",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adffe385-ea67-456a-bbb1-79c5720081fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d898bde-02fd-4319-aea2-c28aff1efe1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-error-control-box > .t-input-block > .js-tilda-rule",
+      "targets": [
+        ["css=.js-error-control-box > .t-input-block > .js-tilda-rule", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28c4bb76-e08a-4b4f-a3d4-46ed3c68e012",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-error-control-box > .t-input-block > .js-tilda-rule",
+      "targets": [
+        ["css=.js-error-control-box > .t-input-block > .js-tilda-rule", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Test@mail.ru"
+    }, {
+      "id": "06214baa-ccb3-40ec-b8c1-e204b02d0e29",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e5cc31-2f42-490d-b65d-71be8137ef2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "571f7691-1599-48b1-aa21-77e17b447a20",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a800e9ed-2c67-4a6c-918e-79a13b3b8f1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-error-control-box .t-input > .t-input",
+      "targets": [
+        ["css=.js-error-control-box .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26109d42-85e1-4f6a-a479-b7093b362dba",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-error-control-box .t-input > .t-input",
+      "targets": [
+        ["css=.js-error-control-box .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "(000) 000-00-01"
+    }, {
+      "id": "05e6c0dc-fc7a-4a65-a800-dd617dc6b6f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47efa85b-1db4-4889-90a4-2a4307a57717",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "023ebfa9-9c40-4781-8d46-9199856564b2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c958f4ef-283e-4705-b647-cad59ad1fc9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-error-control-box .t-input > .t-input",
+      "targets": [
+        ["css=.js-error-control-box .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0091f977-6ebf-4945-a8af-1f78a27ceab4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-error-control-box .t-input > .t-input",
+      "targets": [
+        ["css=.js-error-control-box .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "(000) 000-00-1"
+    }, {
+      "id": "cbc3cb7e-6caf-4b49-b6ba-0639a9f9d482",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-checkbox__control",
+      "targets": [
+        ["css=#form569269576 .t-checkbox__control", "css:finder"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[4]/div/label", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[4]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c993aaa2-5de5-473a-9737-4902fd25acc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-error-control-box .t-input > .t-input",
+      "targets": [
+        ["css=.js-error-control-box .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "520ae6aa-38a5-40a1-8fd6-36b8e600cf2a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-error-control-box .t-input > .t-input",
+      "targets": [
+        ["css=.js-error-control-box .t-input > .t-input", "css:finder"],
+        ["xpath=(//input[@name='tildaspec-phone-part[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[3]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "(499) 000-00-00"
+    }, {
+      "id": "585fd580-a961-4c7f-bb0f-34c9e55951f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9a28f16-f026-4d30-843f-e44a41efeb7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-error-control-box .t-checkbox__indicator",
+      "targets": [
+        ["css=.js-error-control-box .t-checkbox__indicator", "css:finder"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[4]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[4]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6163af9d-ee56-430f-815c-6a2e4abadc35",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form569269576 .t-submit",
+      "targets": [
+        ["css=#form569269576 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form569269576']/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[34]/div/div/div[4]/div/form/div[2]/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61398644-f5f1-4eb4-a6af-ceb7da6b03eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-form-success-popup__close-icon",
+      "targets": [
+        ["css=.t-form-success-popup__close-icon", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "49db2b00-de48-4936-86ae-80598cebf806",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9b748930-1b8c-4881-ad7e-b227b68b9726"]
+  }],
+  "urls": ["https://skillfactory.ru/"],
+  "plugins": []
+}
