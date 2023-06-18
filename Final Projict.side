@@ -1944,6 +1944,2511 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "c67155d2-119e-42ca-8663-ea6f14dd8165",
+    "name": "Просмотр и возможность поделиться рекламным видео на главное странице",
+    "commands": [{
+      "id": "adbe1b5e-28f9-479c-8f5c-c8948f52d5fa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f36ea04-2195-495e-8a38-b847192f8e61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df038ace-f677-4bb3-9af7-21b1ab622056",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff471ade-85b3-4145-9bda-8a678c19f45f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-fullscreen-button",
+      "targets": [
+        ["css=.ytp-fullscreen-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div[2]/div[2]/button[7]", "xpath:idRelative"],
+        ["xpath=//button[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "528e03d3-c1e1-4b5a-9ce0-f0fb614a023a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div/div", "xpath:position"]
+      ],
+      "value": "-184.5,8.39996337890625"
+    }, {
+      "id": "79ae6853-3940-433e-ab65-c87000abc2d9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ytp-scrubber-button",
+      "targets": [
+        ["css=.ytp-scrubber-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div", "xpath:position"]
+      ],
+      "value": "10,11.5"
+    }, {
+      "id": "bfcc017a-7f74-4b6b-bb33-80ebf36f09d7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ytp-scrubber-button",
+      "targets": [
+        ["css=.ytp-scrubber-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div", "xpath:position"]
+      ],
+      "value": "10,11.5"
+    }, {
+      "id": "6af32a12-9fb7-4e08-92ce-be2a925be309",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a8fd5f-80b8-4a62-b094-453bbebe53a5",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div/div", "xpath:position"]
+      ],
+      "value": "-564.5,5.39996337890625"
+    }, {
+      "id": "ab784998-bc97-4c5b-9e9e-39010d7e7db9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ytp-timed-markers-container",
+      "targets": [
+        ["css=.ytp-timed-markers-container", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "938,5.5"
+    }, {
+      "id": "8303de7d-78ce-4750-8266-7551ec9d442c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ytp-timed-markers-container",
+      "targets": [
+        ["css=.ytp-timed-markers-container", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "938,5.5"
+    }, {
+      "id": "3462cc8c-d976-42d1-9897-1907cb16efce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6048ecac-8ec5-460c-a424-62f3c2a97aba",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div/div", "xpath:position"]
+      ],
+      "value": "-181.5,7.39996337890625"
+    }, {
+      "id": "e6ba36ba-b3ae-4aca-a6fd-a6dcf074c743",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ytp-scrubber-button",
+      "targets": [
+        ["css=.ytp-scrubber-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div", "xpath:position"]
+      ],
+      "value": "10,6.5"
+    }, {
+      "id": "64d60410-03bf-4c04-bbea-91d6cbb7974f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ytp-scrubber-button",
+      "targets": [
+        ["css=.ytp-scrubber-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div", "xpath:position"]
+      ],
+      "value": "10,6.5"
+    }, {
+      "id": "e36e12fa-8e14-4582-9aaf-693642a5b39e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55ad9150-eb58-4d15-9b24-c12524e8a5fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-share-icon",
+      "targets": [
+        ["css=.ytp-share-icon", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[3]/div[4]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75310b24-09bb-49a6-afee-b53f9eea3058",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-share-panel-service-button-more",
+      "targets": [
+        ["css=.ytp-share-panel-service-button-more", "css:finder"],
+        ["xpath=//div[@id='ytp-id-28']/div/div[3]/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2704",
+      "windowTimeout": 2000
+    }, {
+      "id": "bc979d22-1f31-40aa-8af6-606ad11ba9a9",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3a1209e-861d-4c90-ac37-41c0dcc282e3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2704}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f77b29a6-d1b5-4939-aa0d-e99b228a6b58",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9466b26-2548-4547-821d-ff4cab19084a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad535ccc-c152-4553-93c9-9a433511be7d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b1778f20-dc33-4464-945c-3c2c8377c66f",
+    "name": "Отзывы работодателей о студентах",
+    "commands": [{
+      "id": "10918223-0fdd-46a9-b1e0-00cf7d5d2d10",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1fb39b1-69c0-4c8b-afcf-59e956480d9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5087e8cf-59b9-42b3-b43d-dd025abd2023",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939924 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939924 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6638-3034-4966-b231-653237633464/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[6]/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd35e2c0-11a7-4180-befa-b03366217fc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939924 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939924 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6638-3034-4966-b231-653237633464/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[6]/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aee44b3-1c2a-4400-afea-27ec6c41b8c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939924 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939924 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6638-3034-4966-b231-653237633464/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[6]/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f77b068-f9d7-4b6e-9e92-7ae6acf3f115",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939924 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939924 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6638-3034-4966-b231-653237633464/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[6]/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "721a0dd6-9078-4774-9205-800aba42c420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939930",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939930", "css:finder"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35eec469-0678-433e-9d5b-8d6af595adfa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64ce99be-95c0-406b-b55f-b65c3c048614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79abfb0-c816-47fe-9098-b687eddeffb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82c1a13c-a268-432d-8996-baf03124024e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5626520551678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5626520551678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562652055']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ccd77398-70f2-4554-a4be-648db4ecd684",
+    "name": "Бесплатные материалы \"Участвовать\" горизонтальный скролл",
+    "commands": [{
+      "id": "079c4914-9cbd-41d7-8dc1-91d0c92ad47b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06f898f3-1f2e-4cc0-9652-98c0a3206cd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "086e3583-6bba-431b-bbb9-962a360ef4ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b8fd54e-13f7-4f80-93f9-84e22973f7a7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab8737d-90e6-49b9-bb3c-8e1b3eba0c0d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1877327-2256-4a8d-8250-130d4152df51",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "908a489b-7601-4513-84ce-520e5b942913",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939920 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939920 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[7]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f7e41d2-8402-4527-84cf-ce76bd11e7a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8e68074-9fa1-476a-8931-b18f7e8bb3fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939920 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939920 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[7]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c138d75b-57ed-4577-b0e2-e74ee2497141",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "516e8d74-30d3-4437-9401-3007a52692db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c14ff710-7d8a-4dba-aa98-068cdfffd70a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6696b15-9179-4206-bb5d-b58e27ce31d1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5636812941678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46e1ae85-4260-40eb-a9c5-05487bfefc0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb9e801-908c-4b86-af50-90717ee588ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26aea127-61b4-4dd7-9431-0cacdffe8d34",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "602ac4e3-e886-41f6-8a9f-97f6b180eeb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06fb4df-fa9d-47f0-8ec4-1e8e61befea8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939930 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939930 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70fbaf94-6dfd-4ba7-86dc-604d2e6e3462",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Участвовать",
+      "targets": [
+        ["linkText=Участвовать", "linkText"],
+        ["css=.tn-elem__5636810961678884256821 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Участвовать')]", "xpath:link"],
+        ["xpath=//div[@id='rec563681096']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/itrentgen')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Участвовать')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4279",
+      "windowTimeout": 2000
+    }, {
+      "id": "c88d7875-efa8-4f91-a1de-5dfacda67adc",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d443087-471e-47a3-ad38-36c75f429429",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4279}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1aac4bb-93da-465d-849f-378ba35db532",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Участвовать",
+      "targets": [
+        ["linkText=Участвовать", "linkText"],
+        ["css=.tn-elem__5903552611683911373611 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Участвовать')]", "xpath:link"],
+        ["xpath=//div[@id='rec590355261']/div/div/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup:forma_1')]", "xpath:href"],
+        ["xpath=//div[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c70d9c6c-0e88-4e74-9213-a59784c14ae9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#form597948999 .t-submit",
+      "targets": [
+        ["css=#form597948999 .t-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form597948999']/div[2]/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/form/div[2]/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af568c67-6f16-4680-b86d-90b4fe1b5d38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.popmechanic-js-clickable-overlay",
+      "targets": [
+        ["css=.popmechanic-js-clickable-overlay", "css:finder"],
+        ["xpath=//div[@id='popmechanic-container-63810']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36ee2cd7-5eda-42c5-8e3d-cb0fa08a4afc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fb8f72a9-bc0d-4a87-add4-03e54cbc0b71",
+    "name": "Бесплатные материалы \"Получить\" горизонтальный скролл",
+    "commands": [{
+      "id": "95cceedf-5885-4817-be41-92816d5d47fe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a772d7a8-ed7e-4cda-9366-1b5d5b9b7e9f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b683bfff-7f86-44b5-aa0a-0c4469f9c9cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5636812941678718939924 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5636812941678718939924 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6162-3636-4131-b731-383630376332/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec563681294']/div/div/div[6]/div/img", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9110ee0-6a6c-423f-a692-f6e13fc06ae2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4758cc30-528a-4abc-a005-98d9e3f079d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Получить",
+      "targets": [
+        ["linkText=Получить", "linkText"],
+        ["css=.tn-elem__5636810961678884335834 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Получить')]", "xpath:link"],
+        ["xpath=//div[@id='rec563681096']/div/div/div[25]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/andr-ios-guide')]", "xpath:href"],
+        ["xpath=//div[16]/div/div/div[25]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Получить')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6225",
+      "windowTimeout": 2000
+    }, {
+      "id": "b85661e0-c784-4565-a53a-9454ff64a3cc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6225}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3e573a98-48d6-4cff-9266-69778a7549ab",
+    "name": "Главная - Бесплатные материалы - Смотреть все материалы",
+    "commands": [{
+      "id": "b0d197c5-0987-4d1c-8df5-85a0a5730fa5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b99b266-9ed7-4cdb-840a-179c7b715cf1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c5c4eea-eb52-4353-aeb8-c1e8fad52b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-563688903-1679040484154 a",
+      "targets": [
+        ["css=#sbs-563688903-1679040484154 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'смотреть все материалы')])[2]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563688903-1679040484154']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/free-events')])[6]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0cb47324-ccb9-4be0-a1df-48c39c5fae1e",
+    "name": "Реальные истории наших студентов",
+    "commands": [{
+      "id": "f65969a3-3583-4c7f-bdde-2d86547085cb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c440a0a7-5a39-4a31-b2e6-4bd341655df5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03b6d321-74fd-477a-9717-a3b17d7821bf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5625611781679404657898 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5625611781679404657898 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562561178']/div/div/div[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/data-science')])[3]", "xpath:href"],
+        ["xpath=//div[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd99edea-d20b-4bd7-9a4a-e222d19bbcde",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,19.200000762939453)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecd466ec-4885-4809-8070-dfb9bfd1c8d5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1372)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be9ea7ca-6be4-4809-9ccb-6875ed5201a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5638680141678718939924 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5638680141678718939924 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6164-3132-4734-b263-373233356338/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec563868014']/div/div/div[6]/div/img", "xpath:idRelative"],
+        ["xpath=//div[23]/div/div/div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb5161b-4f54-4446-b1ff-27c0c47a5dff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5638680141678718939924 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5638680141678718939924 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild6164-3132-4734-b263-373233356338/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec563868014']/div/div/div[6]/div/img", "xpath:idRelative"],
+        ["xpath=//div[23]/div/div/div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84292577-662e-49b8-8567-48d3271d4936",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5638680141678718939933 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5638680141678718939933 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3461-3733-4336-b364-373035336339/f0ac3312-51d0-4886-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec563868014']/div/div/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[23]/div/div/div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f75d4fdc-6581-4d3f-9298-d31a6478500a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-563872722-1679689839392 a",
+      "targets": [
+        ["css=#sbs-563872722-1679689839392 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Читать историю')]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563872722-1679689839392']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/ya-rabotayu-finansovym-analitikom-v-skillfactory/?_ga=2.220685208.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[25]/div/div/div[7]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Читать историю')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1139",
+      "windowTimeout": 2000
+    }, {
+      "id": "aa433a0c-7b5a-4f12-b450-0841d1c4affe",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1139}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1b90f758-aa6f-4fac-ba0b-7a77f4dc8bce",
+    "name": "О нас пишут СМИ",
+    "commands": [{
+      "id": "14b1917a-e771-4262-8ffd-4326014116f6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4337076-8e3a-4b68-bd66-bf70374966eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e41066e-ecaf-4517-9823-afd0913a127b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sbs-563902530-1679431392468 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392468 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[14]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392468']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ipquorum.ru/news/6181-krizis-ili-okno-vozmoznostej-cto-zdet-rynok-onlajn-obrazovania-v-sfere-it-i-dizajna')])[4]", "xpath:href"],
+        ["xpath=//div[25]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8d8831a-1bc3-470d-b0ac-e63b49bb74af",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-563902530-1679431392468 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392468 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[14]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392468']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ipquorum.ru/news/6181-krizis-ili-okno-vozmoznostej-cto-zdet-rynok-onlajn-obrazovania-v-sfere-it-i-dizajna')])[4]", "xpath:href"],
+        ["xpath=//div[25]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1894",
+      "windowTimeout": 2000
+    }, {
+      "id": "2247b0f2-b579-41db-b5b5-bbf3d0af8e7c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#sbs-563902530-1679431392468 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392468 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[14]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392468']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ipquorum.ru/news/6181-krizis-ili-okno-vozmoznostej-cto-zdet-rynok-onlajn-obrazovania-v-sfere-it-i-dizajna')])[4]", "xpath:href"],
+        ["xpath=//div[25]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca2326c3-d9ae-43af-a432-e78292508d9d",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f4d2a24-19c9-4abc-87ea-15695ac96481",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1894}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "551ccdaa-09e3-4565-b08c-3800530ba8a5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c42f4a34-8066-40ab-9561-72eadb726e10",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-563902530-1679431392464 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392464 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[13]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392464']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://academia.interfax.ru/ru/news/articles/8571/')])[4]", "xpath:href"],
+        ["xpath=//div[24]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win739",
+      "windowTimeout": 2000
+    }, {
+      "id": "736aa264-633e-4ba2-9f1b-fca02bbbeb11",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win739}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9d4593d-1b6a-4595-9219-6a890ff9cf95",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.logo__interfax",
+      "targets": [
+        ["css=.logo__interfax", "css:finder"],
+        ["xpath=//div[@id='AppRoot']/header/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cd120ae-914b-41c4-8245-98e106118ed8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3525b0b6-8f25-430c-9432-304f01a4dac6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sbs-563902530-1679431392488 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392488 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[15]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392488']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tass.ru/obschestvo/15006255')])[4]", "xpath:href"],
+        ["xpath=//div[33]/div/div/div[29]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bcd113-b070-4467-877a-f8d7bafa3697",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-563902530-1679431392488 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392488 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[15]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392488']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tass.ru/obschestvo/15006255')])[4]", "xpath:href"],
+        ["xpath=//div[33]/div/div/div[29]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4769",
+      "windowTimeout": 2000
+    }, {
+      "id": "3de1f1b6-df33-4228-934d-a0a0d5864ddf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#sbs-563902530-1679431392488 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392488 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[15]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392488']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tass.ru/obschestvo/15006255')])[4]", "xpath:href"],
+        ["xpath=//div[33]/div/div/div[29]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad159d3-baea-4517-a808-4384a0a1d908",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4769}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e739bdb4-13e2-4b40-abc9-f695f223997f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f92ca7b-df1f-42fe-948b-bf32fb6147bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sbs-563902530-1679431392504 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392504 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[16]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392504']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://trends.rbc.ru/trends/education/5fa1cc249a794739b65c7b5c')])[4]", "xpath:href"],
+        ["xpath=//div[33]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43a0265e-c16b-4e21-97b8-3f9ddefd654e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-563902530-1679431392504 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392504 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[16]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392504']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://trends.rbc.ru/trends/education/5fa1cc249a794739b65c7b5c')])[4]", "xpath:href"],
+        ["xpath=//div[33]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5809",
+      "windowTimeout": 2000
+    }, {
+      "id": "f46961d9-4855-4092-b163-eec939e0e42f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#sbs-563902530-1679431392504 a",
+      "targets": [
+        ["css=#sbs-563902530-1679431392504 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[16]", "xpath:link"],
+        ["xpath=//div[@id='sbs-563902530-1679431392504']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://trends.rbc.ru/trends/education/5fa1cc249a794739b65c7b5c')])[4]", "xpath:href"],
+        ["xpath=//div[33]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2d08b06-9f0d-448e-a2a6-b36fec1b2723",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5809}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "623d502e-5bd0-4c90-bf80-fe1c4e3674f4",
+    "name": "Skillfactory Медиа: как попасть в IT и освоить цифровые профессии",
+    "commands": [{
+      "id": "4042f198-3848-4445-ad87-1109e03247e9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92fe7dba-104e-4269-83d8-a34bb72b0f62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "971ee1c2-a9de-4ca0-bfd6-4c8f46e6f4b9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f34c912-eca5-4acc-a891-6a90bb17d549",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-566452408-1678727134329 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134329 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[8]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134329']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/ya-rabotal-v-banke-a-teper-analiziruyu-dannye-v-federalnom-kaznachejstve/?_ga=2.148768567.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[45]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8794",
+      "windowTimeout": 2000
+    }, {
+      "id": "843f1f82-4f63-4dad-b3ef-79ae29014baa",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a67f89a-86ce-4769-abaa-ca390b218ff4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8794}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d509b9d-7891-420f-a51f-944bdc7917b8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8a674eb-4637-4fcb-848c-cca644a2b05e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sbs-566452408-1678727134349 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134349 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[5]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134349']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://blog.skillfactory.ru/ya-data-scientist-v-tinkoff/?_ga=2.26726847.369084275.1678646990-608144317.1678490311')])[6]", "xpath:href"],
+        ["xpath=//div[42]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e6078cd-b09b-426c-95ba-ceb5ae15a729",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-566452408-1678727134349 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134349 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[5]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134349']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/ya-data-scientist-v-tinkoff/?_ga=2.148768567.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[42]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9971",
+      "windowTimeout": 2000
+    }, {
+      "id": "0b4fbddd-fa88-42e2-aaaa-43c41ff7b0e8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#sbs-566452408-1678727134349 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134349 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[5]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134349']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/ya-data-scientist-v-tinkoff/?_ga=2.148768567.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[42]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d09285c8-92cb-48b7-9726-0cc9ffc256ec",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9971}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20c32306-4e7c-4cc0-8445-01edf7bd6645",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7606f430-87ff-43cf-b30e-05a6061dd15c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sbs-566452408-1678727134369 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134369 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[7]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134369']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://blog.skillfactory.ru/ya-byla-marketologom-a-stala-prodakt-menedzherom-v-it/?_ga=2.26726847.369084275.1678646990-608144317.1678490311')])[6]", "xpath:href"],
+        ["xpath=//div[44]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1017cba0-7e95-4159-8f2f-306b66f58c87",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-566452408-1678727134369 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134369 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[7]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134369']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/ya-byla-marketologom-a-stala-prodakt-menedzherom-v-it/?_ga=2.148768567.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[44]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1427",
+      "windowTimeout": 2000
+    }, {
+      "id": "78e8911b-5c5e-4fcc-b522-b891dea7526d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#sbs-566452408-1678727134369 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134369 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[7]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134369']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/ya-byla-marketologom-a-stala-prodakt-menedzherom-v-it/?_ga=2.148768567.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[44]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37acac69-a3bd-452e-9270-8c22d6d52d27",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1427}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0a5ffad-9222-456a-a591-d0d5befbe57e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "357ce6b5-06b8-488c-9096-f50ae851dbe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5664524081678727134379 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5664524081678727134379 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec566452408']/div/div/div[18]/div", "xpath:idRelative"],
+        ["xpath=//div[32]/div/div/div[18]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcdbf418-77a9-4adb-a7e3-5b4e1f954870",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbs-566452408-1678727134388 a",
+      "targets": [
+        ["css=#sbs-566452408-1678727134388 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'читать')])[6]", "xpath:link"],
+        ["xpath=//div[@id='sbs-566452408-1678727134388']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.skillfactory.ru/kto-takoj-fullstack-razrabotchik/?_ga=2.191131434.1848757466.1687085737-473884754.1684256475')]", "xpath:href"],
+        ["xpath=//div[43]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3140",
+      "windowTimeout": 2000
+    }, {
+      "id": "7dbc6ee8-d815-4a34-b9b4-778ac4227ab7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3140}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ec196271-2e20-47ca-8ef0-9e145af04f47",
+    "name": "Видео- отзывы студентов о курсах",
+    "commands": [{
+      "id": "5b97512f-9431-48ba-ba5c-defa7212306d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4319e887-8077-452e-a73d-5a150d9a4ecb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bffa5bc-3c07-4cd2-bcc5-0e4d0e9274f9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,60.79999923706055)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2f14a06-85ba-450f-a144-3a27547491f5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3217627c-1d47-4d0a-878e-9f0880a60a45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slide circle",
+      "targets": [
+        ["css=.slide circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c337f5-fa2d-4c7d-a3d0-806c6b2c4ce0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=12",
+      "targets": [
+        ["index=12"]
+      ],
+      "value": ""
+    }, {
+      "id": "c42a7b15-a387-474d-bb34-b425521671ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "930ed05e-c9fd-4b5c-9cf0-81164fe05030",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "4485311d-5c99-4c15-b4f6-5c977a36dda0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071671445766896 path",
+      "targets": [
+        ["css=.tn-elem__5627186071671445766896 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "35fe30ec-59a7-4220-866d-ecabe8e203e5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=13",
+      "targets": [
+        ["index=13"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5afec94-6a59-4ebe-968a-ff68077193fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36a8acfd-2264-447d-a840-39e16536c800",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "663c0993-9266-416a-99af-5413680a2417",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071671445766912 path",
+      "targets": [
+        ["css=.tn-elem__5627186071671445766912 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0467d6f0-06fd-4e84-afd3-29b09c7b2a1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071671445766927 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071671445766927 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "097b1386-ee0c-4974-a55b-24dfc68b9a07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa816a78-6da7-4e33-8b63-3966d91988a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d69065-5a0c-4ca1-912f-a1f6ad516362",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34bd4641-10cb-4bc0-8608-bf22b31de885",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8d5f8de-f062-492e-a0ea-fde2f53dd554",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08a2904a-a57d-45fb-a22d-6f066e99f90c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d3e73a6-1c3f-4c23-b3d5-852c3afcafd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b200a02-6f28-4d29-b6d6-bd2a58c920bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cdd74ea-9d9c-4a14-a64e-3de0f533dad9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07cd12a3-49db-4575-ae40-c34203149264",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": "8,7"
+    }, {
+      "id": "3467c018-41be-4e03-a6b9-8d313a95e730",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": "8,7"
+    }, {
+      "id": "06bebfeb-564c-42d1-aeea-d10a80ca77ee",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": "8,7"
+    }, {
+      "id": "ddd64f75-0df3-47b5-b139-27f207f52ff8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5847ceb7-1a92-4d7c-8f5e-3a5877ddfd01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e672e760-2ea0-4a2f-93bc-c88f7d41dd1d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fad312a-9655-408a-8590-08378091c5ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071656416522638 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071656416522638 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a00fd9-8fd0-44ca-b558-9c7dc8db344c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071656416411951 path",
+      "targets": [
+        ["css=.tn-elem__5627186071656416411951 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c3cdd02-ade0-411f-ace6-510f94e57146",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071656416275217 path",
+      "targets": [
+        ["css=.tn-elem__5627186071656416275217 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce5b5443-e00d-4357-a73d-59bba3f13044",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5886ce8-fd60-46fb-b833-2c7da15d428f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d482806f-69c9-4c60-8918-722fa12378dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "023a2960-9595-49e2-9978-3dc61b52317a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52116888-c0ca-4106-b822-0c7fbabf8d02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a76f19e4-6803-4566-a3f8-22a207d77900",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2b9f2e9-01c1-448d-8ef6-bf75322686cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f4a5dd8-de9e-4e5d-8517-b9c8ad9dc63b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78322e7d-23ce-4af3-aa0f-33a7453ba987",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cdfc97b-f901-4215-9703-3f166c66ba03",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55488d9e-cf4e-495d-a246-91b6833f74d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "833f95a6-01c1-4ac1-860c-f62a4788e086",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc0968d1-f497-46a7-91b2-568e04c6fb37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071656416194839 path",
+      "targets": [
+        ["css=.tn-elem__5627186071656416194839 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "230986ad-4d0f-4265-954c-e44859cb0382",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e466507b-5998-4fea-8f58-ef6b796ab225",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4aa7202-fe26-4e8d-ae19-197bba82f253",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af97f872-cd9c-43dc-91d3-10389e208723",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "831de89d-3b9e-40d6-894e-7c962d718e3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9ce0c26-34b0-4356-bff7-ded639681fd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849227 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849227 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3032-6538-4465-a162-366134373036/57b32d26-691b-43ad-8.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[18]/div/img", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[18]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e79faa84-44c9-4e40-82bd-5632e5e6839e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4142304-04dc-4cc1-9ebd-36c1dec26884",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071656415842121 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071656415842121 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1d13ed8-a617-4c0b-9796-c25900d43c4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071648720412987 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071648720412987 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c07c7ccc-355e-4ed0-b5fb-932adc9ceb50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea036cf-f4bd-42c5-803f-9ac5db35ecb4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0fefe33-1bbe-4bf3-a7a8-95ad8a5318aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9856a9d-358f-4b72-b2ac-b68783052aaf",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "466f5cab-badc-4646-8ea9-f5adf9b7637a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a034b17-8da3-40ba-aca3-2cc5d64dfa28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f91351e-f9a4-4f1a-8056-ea3c50910ba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b9099d1-4c21-4d45-abb3-81ebb8ab6d80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67391e89-a636-4439-9873-3b1843f6deab",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22a3556f-5fe6-4b43-951b-3dab209075fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56d83251-d50c-4a8d-9dfe-ba08ff8724c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fbe4813-b181-4812-920e-1a45c7b40400",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c487537e-5513-454a-84e9-4882320afc67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb9c940e-783b-4e69-ab6f-bdab1fc828d6",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b6a91ab-7443-4d5b-b298-7d0098dc6a2a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "451be14c-70b3-4b3b-af46-c17fcd485d36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071648720477027 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071648720477027 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da2f8e0-1795-47e6-a333-d19e2f20e1ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071648720347207 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071648720347207 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d1c1c1a-fe11-482e-a923-595a196bddbb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=9",
+      "targets": [
+        ["index=9"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7e8862b-c010-495b-a060-16b9485c8cb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=carrotquest-messenger-collapsed",
+      "targets": [
+        ["id=carrotquest-messenger-collapsed", "id"],
+        ["css=#carrotquest-messenger-collapsed", "css:finder"],
+        ["xpath=//div[@id='carrotquest-messenger-collapsed']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcd56aec-24bf-4d63-b1fd-a3c11dd491eb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "41ddc5c3-6096-4aca-812c-4e9aaf0d3a1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rec562715023 .t396__filter",
+      "targets": [
+        ["css=#rec562715023 .t396__filter", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a89853ef-66ce-4c3d-b943-edcdfa65d4ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rec562715023 .t396__filter",
+      "targets": [
+        ["css=#rec562715023 .t396__filter", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4b6d967-52d5-4264-bba3-dde905c149ce",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=21",
+      "targets": [
+        ["index=21"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1a5071c-ad57-4781-b990-0f170d2d5ff0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cqi-chevron-down",
+      "targets": [
+        ["css=.cqi-chevron-down", "css:finder"],
+        ["xpath=//div[@id='carrotquest-messenger']/div/div/div/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f027cf-34b2-4758-92c2-8b425a68c9f8",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "6571149a-a6de-4c02-875d-ee14871c60bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071648720616808 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071648720616808 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df5fdb9b-96d0-4eb9-8dc4-4345c04d708e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rec562715023 .t396__artboard",
+      "targets": [
+        ["css=#rec562715023 .t396__artboard", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[26]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18af8192-5d04-4ec5-a977-e15ae3445d5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b33d1aa2-d087-48f8-8a5f-90292045212f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f40a0ec-42cd-421a-bc1a-8c7eb69f4157",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d387ec46-5f86-46d7-8b5a-0c52e5521386",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4bd30b1-96e6-4b06-bcff-37e1c5abed2d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00a371c9-2630-4363-a53b-52e672256b49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b2b02f6-7811-4203-8c42-e9b41f8df18d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56ffecee-20b6-4fc6-97f0-3568b0d88863",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de693590-24ff-4cec-8151-5812df867c82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "248160fb-6f2d-4567-94bd-d4de6e25f382",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "974bf786-1868-4ccf-a4dd-ef1491cb4dc8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffddba0b-c996-480a-ac4d-e0c8f6b3f06e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071649780381011 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071649780381011 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "758dc00f-b61a-4176-aa20-f47c9de87466",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071650573612409 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071650573612409 circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7656e5f1-d272-401e-a7d1-0bd44b89d2d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e8abf94-6bc9-4f3b-9f14-bc076ce4dbe2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "976b8913-676c-47d0-a01c-9b37db185821",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5716dc9e-683a-4210-a9c0-948b7228716e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": "6,27"
+    }, {
+      "id": "2cd50566-7561-4f29-b677-056217e60c4d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": "6,27"
+    }, {
+      "id": "10e4e258-b19a-4465-a640-acef13c7a4d1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": "6,27"
+    }, {
+      "id": "31e14220-dcd3-416b-a79e-18b386e3bf9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d766aeed-a18d-433f-9f8c-2873b46aee52",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d8886c2-0e34-4248-86cd-e244cf4f323e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32f263f6-6940-475b-9a9b-cdaec0f4a68f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5a1badb-3cce-4a50-a117-818c5876362e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": "6,29"
+    }, {
+      "id": "f3dba4fe-c6ac-4583-8e69-ce6e0fd3ca32",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": "6,29"
+    }, {
+      "id": "277fdeb8-c82e-4eff-bd13-8219be1fb0a7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": "6,29"
+    }, {
+      "id": "f2a6fb15-fe43-4298-a1b1-b19ad6bfe9e0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5c69ddd-6505-45e3-bc12-a1e15bcc2df1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02891123-5419-4cde-90cd-d3dc2dda4409",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f30926c-35e5-469e-90f9-67a78d9cffbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de13d8f-f3bc-4e8f-8f6d-274f1f465d4a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "479cc966-d1ae-4edf-bf8e-1f6f24e40636",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c77f669-9c17-4e09-8317-1d45e10ae2e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7319bdb-4df7-4bef-bd0e-00a22c575e52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f3a515-49bc-4c76-b401-87ec04999ed9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cee6ce59-a80b-4c33-afd6-e6ca8301ef63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb203e97-0d17-4689-9c03-50be3631f8ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80e54e30-28d1-4e29-9d41-adbb868fcf96",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7781a0-86b0-453e-93f1-f20d4b10ff5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e248073-9722-446d-a147-cb1d4f675b65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb87fa3-ca72-4471-99ec-c7f405f8111f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb84a4b-af41-489d-8194-57b747753f0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "525f9b32-db02-428c-8c7c-28423c023f6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1d9e68-3aab-4e10-a9e5-7516e1a14658",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627150231678903849222 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5627150231678903849222 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec562715023']/div/div/div[17]/div", "xpath:idRelative"],
+        ["xpath=//div[26]/div/div/div[17]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e936ef8-01e5-43bd-b6c6-4725febd1939",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5627186071650634470740 circle",
+      "targets": [
+        ["css=.tn-elem__5627186071650634470740 circle", "css:finder"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "49db2b00-de48-4936-86ae-80598cebf806",
